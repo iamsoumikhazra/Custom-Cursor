@@ -12,6 +12,7 @@ body {
   cursor: url("/img/custom-cursor.png"), auto;
   background: #151D3B;
   height: 100vh;
+  cursor: url("/img/custom-cursor.png"), auto;
 }
 
 .wrapper {
@@ -94,9 +95,6 @@ nav ul li a {
   position: relative;
 }
 
-nav ul li a:hover {
-  cursor: url("/img/custom-cursor.png"), auto;
-}
 
 nav ul li a::after {
   content: "";
